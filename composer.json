@@ -1,0 +1,16 @@
+{
+    "name": "carbon/mautic-bundle",
+    "description": "Extend Mautic for usage with Carbon.Mautic in Neos CMS",
+    "type": "mautic-plugin",
+    "extra": {
+        "install-directory-name": "MauticCarbonBundle"
+    },
+    "autoload": {
+        "psr-4": {
+            "MauticPlugin\\MauticCarbonBundle\\": ""
+        }
+    },
+    "require": {
+        "mautic/core-lib": "^5.2 || ^6.0"
+    }
+}
