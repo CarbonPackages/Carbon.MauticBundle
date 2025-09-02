@@ -1,6 +1,7 @@
 {
     "name": "carbon/mautic-bundle",
     "description": "Extend Mautic for usage with Carbon.Mautic in Neos CMS",
+    "license": "GPL-3.0",
     "type": "mautic-plugin",
     "extra": {
         "install-directory-name": "MauticCarbonBundle"
