@@ -17,11 +17,11 @@ return function (ContainerConfigurator $configurator) {
     $services
         ->load('MauticPlugin\\MauticCarbonBundle\\Entity\\', '../Entity/*Repository.php')
         ->tag(
-            Doctrine\Bundle\DoctrineBundle\DependencyInjection\Compiler\ServiceRepositoryCompilerPass::REPOSITORY_SERVICE_TAG,
+            Doctrine\Bundle\DoctrineBundle\DependencyInjection\Compiler\ServiceRepositoryCompilerPass::REPOSITORY_SERVICE_TAG
         );
 
     $services->alias(
         'mautic.emailConfig.model.emailConfig',
-        'MauticPlugin\\MauticCarbonBundle\\Model\\EmailConfigModel',
+        'MauticPlugin\\MauticCarbonBundle\\Model\\EmailConfigModel'
     );
 };

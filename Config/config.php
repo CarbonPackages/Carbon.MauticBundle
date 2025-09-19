@@ -3,7 +3,7 @@
 $configValue = [
     'name' => 'Neos Integration',
     'description' => 'Tooling to support Neos CMS integration',
-    'version' => '0.2.0',
+    'version' => '0.3.0',
     'author' => 'David Spiola',
 
     'routes' => [

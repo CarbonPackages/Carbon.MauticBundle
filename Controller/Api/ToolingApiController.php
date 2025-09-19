@@ -20,7 +20,7 @@ class ToolingApiController extends CommonController
             json_encode([
                 'success' => 1,
                 'ping' => 'pong',
-            ]),
+            ])
         );
 
         return $response;

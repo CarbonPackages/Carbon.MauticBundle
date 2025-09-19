@@ -130,7 +130,7 @@ class EmailApiController extends CommonApiController
                     json_encode([
                         'success' => 1,
                         'settings' => json_decode($payload),
-                    ]),
+                    ])
                 );
             }
         }
@@ -162,7 +162,7 @@ class EmailApiController extends CommonApiController
                     json_encode([
                         'success' => $config ? 1 : 0,
                         'settings' => json_decode($configEntity->getConfig()),
-                    ]),
+                    ])
                 );
             }
         }
